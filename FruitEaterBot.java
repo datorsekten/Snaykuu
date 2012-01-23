@@ -19,7 +19,7 @@ public class FruitEaterBot implements Brain
 		Direction backwards = getBackwardsDirection(previousDirection);
 		Set<Snake> otherSnakes = gamestate.getSnakes();
 		otherSnakes.remove(yourSnake);
-		
+		//oj va ful kod
 		
 		if(!gamestate.getFruits().isEmpty()){
 			
